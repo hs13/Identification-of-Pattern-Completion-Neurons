@@ -16,7 +16,7 @@ ifeq ($(UNAME), Darwin)
 endif
 
 # replace the following variable with your matlab mex path
-MEX=/usr/local/MATLAB/R2019b/bin/mex
+MEX=/Applications/MATLAB_R2020b.app/bin/mex
 
 all: example QPBO_double_mex.$(MEX_EXT) QPBO_double_mex_debug.$(MEX_EXT) QPBO_single_mex.$(MEX_EXT) QPBO_single_mex_debug.$(MEX_EXT)
 

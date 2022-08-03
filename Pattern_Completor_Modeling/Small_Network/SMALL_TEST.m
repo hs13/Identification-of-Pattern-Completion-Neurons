@@ -4,8 +4,8 @@ mod_dir = fullfile(basepath,'Small_Network');
 Files = dir(fullfile(mod_dir, '*.hdf5'));
 
 MATRICES = struct;
-MATRICES.ST=[];
-MATRICES.ENS =[];
+MATRICES.ST={};
+MATRICES.ENS ={};
 
 %ST is the states 
 %ENS is the ensembles

@@ -141,8 +141,8 @@ void mexFunction (int nOut, mxArray *pOut[], int nIn, const mxArray *pIn[]) {
   // Prepare to round
   /////////////////////////////////////
 
-//  COST_TYPE lo = std::min(nodeCost.min(), edgeCost.min());
-//  COST_TYPE hi = std::max(nodeCost.max(), edgeCost.max());
+  COST_TYPE lo = std::min(nodeCost.min(), edgeCost.min());
+  COST_TYPE hi = std::max(nodeCost.max(), edgeCost.max());
 
   /////////////////////////////////////
   // Create the model.
